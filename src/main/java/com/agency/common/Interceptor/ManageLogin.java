@@ -1,4 +1,4 @@
-package com.njupt.agency.common.Interceptor;
+package com.agency.common.Interceptor;
 
 import java.lang.annotation.*;
 

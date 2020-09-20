@@ -1,4 +1,4 @@
-package com.njupt.agency.util;
+package com.agency.util;
 
 import lombok.extern.slf4j.*;
 import org.apache.commons.lang3.*;

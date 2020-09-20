@@ -1,4 +1,4 @@
-package com.njupt.agency.controller.backend;
+package com.agency.controller.backend;
 
 import java.io.*;
 import java.net.URLEncoder;
@@ -8,12 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.google.common.collect.*;
-import com.njupt.agency.common.*;
-import com.njupt.agency.service.*;
-import com.njupt.agency.util.*;
+import com.agency.common.*;
+import com.agency.service.*;
+import com.agency.util.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.*;
 import org.springframework.web.multipart.*;
 
 
@@ -25,8 +24,6 @@ public class BlobController {
 	@Autowired
 	private IFileService iFileService;
 
-	@Autowired
-	private VideoService videoService;
 
 	/**
 	 * 文件上传
@@ -73,9 +70,9 @@ public class BlobController {
 	public void myTry(HttpServletRequest request,HttpServletResponse response,@PathVariable("fileId") Integer fileId){
 
 		//业务逻辑  这个需要把表建好之后 通过id查到uri
-		String realFileName = videoService.getVideoById(fileId);
+		String realFileName = iFileService.getVideoById(fileId);
 		//调用方法传到前端
-		videoService.sendBlob(request,response,realFileName);
+		iFileService.sendBlob(request,response,realFileName);
 
 	}
 

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd92a2ad-831b-48b6-9d22-ec05ba88650f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/common/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/common/Interceptor/ManageAuthorityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/common/Interceptor/ManageLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/common/RedisShardedPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/common/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/common/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/configuration/restConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/controller/backend/BlobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/controller/backend/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/controller/portal/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/service/IFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/FTPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agency/util/RedisShardedPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tools/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOG_PATH_IS_UNDEFINED/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOG_PATH_IS_UNDEFINED/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avie/ltd/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agency/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avie/ltd/controller/BlobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblogs/admin/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblogs/admin/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblogs/admin/spring.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="runMavenInBackground" value="false" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="1hOvrUk65bTqpcgBX2feOQTTArt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\DataOfCoding\agency\Blob_java\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.agency.common" />
+      <recent name="com.agency.util" />
+      <recent name="com.njupt.agency.common" />
+      <recent name="com.avie.ltd.util" />
+      <recent name="com.avie.ltd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DataOfCoding\agency\Blob_java\src\main\resources" />
+      <recent name="G:\DataOfCoding\agency\Blob_java\src\main\java\com\njupt\agency\common" />
+      <recent name="G:\DataOfCoding\agency\Blob_java\src\main\java\com\avie\ltd\common" />
+      <recent name="G:\DataOfCoding\agency\Blob_java\src\main\java\com\avie\ltd\util" />
+      <recent name="G:\DataOfCoding\agency\Blob_java\src\main\java\com\avie\ltd\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="agency" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agency.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BlobDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.avie.ltd.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd92a2ad-831b-48b6-9d22-ec05ba88650f" name="Default Changelist" comment="" />
+      <created>1599895151693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599895151693</updated>
+      <workItem from="1599895154480" duration="6671000" />
+      <workItem from="1599912249631" duration="4351000" />
+      <workItem from="1599966168035" duration="6126000" />
+      <workItem from="1599980997423" duration="1538000" />
+      <workItem from="1599987887564" duration="2422000" />
+      <workItem from="1600003062076" duration="549000" />
+      <workItem from="1600069803164" duration="4782000" />
+      <workItem from="1600076697931" duration="111000" />
+      <workItem from="1600082766100" duration="393000" />
+      <workItem from="1600084577767" duration="1684000" />
+      <workItem from="1600087579486" duration="4022000" />
+      <workItem from="1600128388092" duration="3630000" />
+      <workItem from="1600147415863" duration="777000" />
+      <workItem from="1600157579307" duration="3302000" />
+      <workItem from="1600175354384" duration="2685000" />
+      <workItem from="1600608600809" duration="1600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="698" y="161" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600609989221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="161" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600609989221" />
+    <state x="1007" y="289" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600609976613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1007" y="289" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600609976613" />
+    <state x="754" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600609937255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600609937255" />
+    <state x="488" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1600609934991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="488" y="179" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600609934991" />
+    <state x="628" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600177299447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="628" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600177299447" />
+    <state x="223" y="210" key="#xdebugger.evaluate" timestamp="1600147643677">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="223" y="210" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1600147643677" />
+    <state width="1293" height="172" key="GridCell.Tab.0.bottom" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.0.center" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.0.left" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.0.right" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.1.bottom" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.1.center" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.1.left" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.1.right" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.2.bottom" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.2.center" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.2.left" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state width="1293" height="172" key="GridCell.Tab.2.right" timestamp="1600160885759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="172" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600160885759" />
+    <state x="430" y="279" key="Maven.ArtifactSearchDialog" timestamp="1599899904081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="430" y="279" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599899904081" />
+    <state x="702" y="188" key="Registry" timestamp="1599913872287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="188" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1599913872287" />
+    <state x="724" y="207" key="SettingsEditor" timestamp="1600177583777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="207" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600177583777" />
+    <state x="438" y="427" key="com.intellij.ide.util.TipDialog" timestamp="1600608605589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="438" y="427" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600608605589" />
+    <state x="216" y="217" width="786" height="600" key="find.popup" timestamp="1600158445740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="216" y="217" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600158445740" />
+    <state x="495" y="250" key="run.anything.popup" timestamp="1600176863316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="495" y="250" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600176863316" />
+    <state x="614" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1600176426528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600176426528" />
+    <state x="853" y="437" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599913499016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="853" y="437" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599913499016" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/agency/util/FTPUtil.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/agency/util/FTPUtil.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/agency/util/FTPUtil.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="ftpClient" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -9,10 +9,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
+/**
+ * @author ch33orange
+ */
 @SpringBootApplication
-public class Application {
+public class DemoApplication {
 
-	protected static Logger logger = LoggerFactory.getLogger(Application.class);
+	protected static Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 
 	/**
 	 * 系统所有数据在此处初始化
@@ -29,6 +32,6 @@ public class Application {
 
 	public static void main(String[] args) {
 		// 启动程序
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 }

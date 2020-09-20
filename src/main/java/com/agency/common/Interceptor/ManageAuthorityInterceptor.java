@@ -1,12 +1,12 @@
-package com.njupt.agency.common.Interceptor;
+package com.agency.common.Interceptor;
 
 
-import com.BluerMall.common.*;
-import com.BluerMall.pojo.*;
-import com.BluerMall.service.*;
-import com.BluerMall.util.*;
+import com.agency.common.*;
+import com.agency.pojo.*;
+import com.agency.service.*;
+import com.agency.util.*;
 import com.google.common.collect.*;
-import com.njupt.agency.util.*;
+import com.agency.util.*;
 import lombok.extern.slf4j.*;
 import org.apache.commons.lang3.*;
 import org.springframework.beans.factory.annotation.*;
@@ -17,7 +17,6 @@ import org.springframework.web.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 import java.util.*;
-
 /**
  * @author blue
  * @date 2019-9-26
@@ -81,6 +80,7 @@ public class ManageAuthorityInterceptor implements HandlerInterceptor {
                     String userJsonStr = RedisShardedPoolUtil.get(loginToken);
                     user = JsonUtil.stringToObj(userJsonStr, User.class);
                 }
+                //todo
                 if (user == null || !iUserService.checkAdminRole(user).isSuccess()) {
                     //返回false,不会调用controller的方法
                     response.reset();//bluer note: 这里要reset,否则会报异常 getWriter() has already ben called for this response

@@ -14,6 +14,12 @@
 </head>
 
 <body>
+<div>
+    <form name="form1" action="/blob/upload.do" method="post" enctype="multipart/form-data">
+        <input type="file" name="upload_file">
+        <input type="submit" value="springmvc上传文件">
+    </form>
+</div>
     <div>
         <video  id="sound"  class="player" controls autoplay></video>
     </div>
@@ -23,7 +29,7 @@
 <script type="text/javascript">
     let xhr = new XMLHttpRequest()
     xhr.open('GET', 'http://localhost:8080/blob/getStream', true)
-    //跨域请求 不太行
+    //跨域请求 不太行 我前后的同域才能用 后面要用nginx搞跨域吧
     xhr.responseType = 'blob'
     xhr.onload = function (e) {
         if (this.status === 200) {

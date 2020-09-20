@@ -1,4 +1,4 @@
-package com.njupt.agency.common;
+package com.agency.common;
 
 public enum ResponseCode {
 

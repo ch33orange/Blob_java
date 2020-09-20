@@ -1,6 +1,7 @@
-package com.BluerMall.util;
+package com.agency.util;
 
-import com.BluerMall.common.*;
+
+import com.agency.common.*;
 import lombok.extern.slf4j.*;
 import redis.clients.jedis.*;
 

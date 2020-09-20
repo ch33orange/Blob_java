@@ -1,4 +1,4 @@
-package com.njupt.agency.util;
+package com.agency.util;
 
 import org.apache.commons.lang3.*;
 import org.joda.time.*;

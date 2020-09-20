@@ -1,4 +1,4 @@
-package com.njupt.agency.util;
+package com.agency.util;
 
 import lombok.extern.slf4j.*;
 import org.apache.commons.lang3.*;
@@ -13,7 +13,7 @@ public class CookieUtil {
 
     private final static String COOKIE_DOMAIN = "localhost"; //.bluer.net.cn
 
-    private final static String COOKIE_NAME = "BluerMall_login_token";
+    private final static String COOKIE_NAME = "agency_login_token";
 
 
     public static String readLoginToken(HttpServletRequest request) {

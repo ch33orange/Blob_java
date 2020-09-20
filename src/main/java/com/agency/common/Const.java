@@ -1,4 +1,4 @@
-package com.BluerMall.common;
+package com.agency.common;
 
 import com.google.common.collect.*;
 

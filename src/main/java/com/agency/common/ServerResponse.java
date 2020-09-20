@@ -1,4 +1,4 @@
-package com.njupt.agency.common;
+package com.agency.common;
 
 import com.fasterxml.jackson.annotation.*;
 import org.codehaus.jackson.map.annotate.*;

@@ -1,6 +1,7 @@
-package com.BluerMall.common;
+package com.agency.common;
 
-import com.BluerMall.util.*;
+
+import com.agency.util.*;
 import redis.clients.jedis.*;
 import redis.clients.util.*;
 
